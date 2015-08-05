@@ -1,0 +1,27 @@
+.spinner-16px{
+  background: asset-url('icons/spinner_16px.png');
+  width: 16px;
+  height: 16px;
+}
+.spinner-16px.animated{
+  -webkit-animation: spinner-16px 0.6s steps(18) infinite;
+          animation: spinner-16px 0.6s steps(18) infinite;
+}
+
+@-webkit-keyframes spinner-16px{
+  from{
+    background-position: 0px
+  }
+  to{
+    background-position: -288px;
+  }
+}
+
+@keyframes spinner-16px{
+  from{
+    background-position: 0px
+  }
+  to{
+    background-position: -288px;
+  }
+}
