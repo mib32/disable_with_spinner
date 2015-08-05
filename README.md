@@ -2,6 +2,8 @@
 
 A Rails gem, that lets you to replace the content of a remote button with animated spinner with just one data attribute.
 
+![alt tag](http://zippy.gfycat.com/ShinyJaggedIndianelephant.gif)
+
 ## Installation
 
 Add this line to the Gemfile
