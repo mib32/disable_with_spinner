@@ -34,3 +34,8 @@ Add `data-disable-with-spinner` attribute to the method, that is ought to be dis
 ### Restoration of original content
 
 The button will restore it's contents either if button overcomes `ajax:complete` event, or if you trigger `spinner:hide` on it.
+
+
+## Credits
+Spinner pictue: http://preloaders.net
+Gem author: Anthon Mur
