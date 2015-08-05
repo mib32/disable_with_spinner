@@ -1,6 +1,11 @@
 $ ->
   $('[data-disable-with-spinner]').click ->
     enableWith = $(this).html()
-    $(this).html('<div class="spinner-16px animated"></div>')
-    $(this).on 'ajax:complete spinner:hide', ->
-      $(this).html(html)
+    disabled = this
+    spinner = $('<div class="spinner-16px animated"></div>')
+    spinner.hide()
+    $(disabled).html(spinner)
+    spinner.fadeIn('fast')
+    $(disabled).on 'ajax:complete spinner:hide', -> 
+      spinner.fadeOut 'fast', ->
+        $(disabled).html(enableWith)
