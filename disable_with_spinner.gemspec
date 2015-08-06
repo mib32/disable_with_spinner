@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
     "lib/disable_with_spinner.rb",
     "app/assets/images/spinner_16px.png",
     "app/assets/javascripts/spinner.coffee",
-    "app/assets/stylesheets/spinner.css"
+    "app/assets/stylesheets/spinner.css.erb"
   ]
   s.homepage    =
     'http://rubygems.org/gems/disable_with_spinner'
