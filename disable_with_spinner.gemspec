@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'disable_with_spinner'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2015-08-05'
   s.summary     = "Disable anything with spinner"
   s.description = "Replace contents of a button with animated spinner with an ease"
