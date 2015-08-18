@@ -1,5 +1,5 @@
 $ ->
-  $('[data-disable-with-spinner]').click ->
+  $(document).on 'click', '[data-disable-with-spinner]', ->
     enableWith = $(this).html()
     disabled = this
     spinner = $('<div class="spinner-16px animated"></div>')
